@@ -1,0 +1,8 @@
+#!/bin/sh
+LOG=/tmp/wakeup.log
+DATE=$(date)
+
+echo "[$DATE] Woke up." >> $LOG
+
+PWDTOGGLE=$(~/src/screensaver-password-toggle/screensaver-password-toggle-trusted.sh)
+echo "[$DATE] Screensaver password: $PWDTOGGLE" >> $LOG

@@ -1,0 +1,5 @@
+#!/bin/sh
+LOG=/tmp/sleep.log
+DATE=$(date)
+
+echo "[$DATE] Went to sleep." >> $LOG
