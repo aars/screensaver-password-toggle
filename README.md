@@ -1,9 +1,9 @@
 # screensaver-password-toggle
 Toggle screensaver password for osx
 
-Use in combination with sleepwatcher (`brew install sleepwatcher`) to automatically enable/disable password lock when machines wakes in untrusted environments, not connected to trusted SSIDs. 
+Use in combination with sleepwatcher (`brew install sleepwatcher`) to automatically enable/disable password lock when machines wakes in untrusted/trusted environment. Determined by connected SSID and optional BSSID (mac address) of SSID.
 
-See example `sleepwatcher-scripts/wakeup`.
+See example `sleepwatcher-scripts/wakeup` for usage with sleepwatcher.
 
 # Trusted SSIDs and BSSIDs
 
